@@ -1,3 +1,6 @@
+Generates structures for Science Birds (Angry Birds) from sketches of rectilinear polygons
+https://github.com/lucasnfe/Science-Birds
+
 To generate structure from sketch:
 
 python3 generate_sketch.py "sketch_name.png" "scale_calculation_option" "only_rectangular_polygons"
@@ -16,7 +19,7 @@ NOTE:
 A good way to automatically create many structure sketches is using the random rectilinear polygon generator found here:
 https://github.com/stepmat/rectilinear_polygon_generator
 
-Science-Birds level             |  Angry Birds level
+Input sketch             |  Generated structure
 :-------------------------:|:-------------------------:
 ![](/generation_examples/1a.png)  |  ![](/generation_examples/1b.jpg)
 ![](/generation_examples/2a.jpg)  |  ![](/generation_examples/2b.jpg)
