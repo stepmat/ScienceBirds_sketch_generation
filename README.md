@@ -20,11 +20,10 @@ NOTE:
 A good way to automatically create many structure sketches is using the random rectilinear polygon generator found here:
 https://github.com/stepmat/rectilinear_polygon_generator
 
-![Alt text](/generation_examples/1a.png?raw=true "example generated level #1")
 
 Input sketch             |  Generated structure
 :-------------------------:|:-------------------------:
-![](/generation_examples/1a.png) | ![](/generation_examples/1b.jpg)
-![](/generation_examples/2a.jpg) | ![](/generation_examples/2b.jpg)
-![](/generation_examples/3a.jpg) | ![](/generation_examples/3b.jpg)
-![](/generation_examples/4a.png) | ![](/generation_examples/4b.jpg)
+![](/Examples/1a.png) | ![](/Examples/1b.jpg)
+![](/Examples/2a.jpg) | ![](/Examples/2b.jpg)
+![](/Examples/3a.jpg) | ![](/Examples/3b.jpg)
+![](/Examples/4a.png) | ![](/Examples/4b.jpg)
