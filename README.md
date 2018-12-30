@@ -1,4 +1,4 @@
-Generates structures for Science Birds (Angry Birds) from sketches of rectilinear polygons
+Generates structures for Science Birds (Angry Birds) from sketches of rectilinear polygons.
 https://github.com/lucasnfe/Science-Birds
 
 To generate structure from sketch:
