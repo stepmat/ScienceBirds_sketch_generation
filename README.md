@@ -1,4 +1,5 @@
 Generates structures for Science Birds (Angry Birds) from sketches of rectilinear polygons.
+
 https://github.com/lucasnfe/Science-Birds
 
 To generate structure from sketch:
@@ -21,7 +22,7 @@ https://github.com/stepmat/rectilinear_polygon_generator
 
 Input sketch             |  Generated structure
 :-------------------------:|:-------------------------:
-![](/generation_examples/1a.png)  |  ![](/generation_examples/1b.jpg)
-![](/generation_examples/2a.jpg)  |  ![](/generation_examples/2b.jpg)
-![](/generation_examples/3a.jpg)  |  ![](/generation_examples/3b.jpg)
-![](/generation_examples/4a.png)  |  ![](/generation_examples/4b.jpg)
+![](/generation_examples/1a.png) | ![](/generation_examples/1b.jpg)
+![](/generation_examples/2a.jpg) | ![](/generation_examples/2b.jpg)
+![](/generation_examples/3a.jpg) | ![](/generation_examples/3b.jpg)
+![](/generation_examples/4a.png) | ![](/generation_examples/4b.jpg)
