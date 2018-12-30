@@ -23,7 +23,7 @@ https://github.com/stepmat/rectilinear_polygon_generator
 
 Input sketch | Generated structure
 :-------------------------:|:-------------------------:
-![](/Examples/1a.jpg) | ![](/Examples/1b.png)
-![](/Examples/2a.jpg) | ![](/Examples/2b.jpg)
-![](/Examples/3a.jpg) | ![](/Examples/3b.jpg)
-![](/Examples/4a.png) | ![](/Examples/4b.jpg)
+![](/Examples/ex1a.jpg) | ![](/Examples/ex1b.png)
+![](/Examples/ex2a.jpg) | ![](/Examples/ex2b.jpg)
+![](/Examples/ex3a.jpg) | ![](/Examples/ex3b.jpg)
+![](/Examples/ex4a.jpg) | ![](/Examples/ex4b.png)
