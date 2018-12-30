@@ -18,7 +18,7 @@ https://github.com/stepmat/rectilinear_polygon_generator
 
 Science-Birds level             |  Angry Birds level
 :-------------------------:|:-------------------------:
-![](/Generation examples/1a.png)  |  ![](/Generation examples/1b.jpg)
-![](/Generation examples/2a.jpg)  |  ![](/Generation examples/2b.jpg)
-![](/Generation examples/3a.jpg)  |  ![](/Generation examples/3b.jpg)
-![](/Generation examples/4a.png)  |  ![](/Generation examples/4b.jpg)
+![](/generation_examples/1a.png)  |  ![](/generation_examples/1b.jpg)
+![](/generation_examples/2a.jpg)  |  ![](/generation_examples/2b.jpg)
+![](/generation_examples/3a.jpg)  |  ![](/generation_examples/3b.jpg)
+![](/generation_examples/4a.png)  |  ![](/generation_examples/4b.jpg)
