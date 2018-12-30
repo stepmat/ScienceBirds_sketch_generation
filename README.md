@@ -21,7 +21,7 @@ A good way to automatically create many structure sketches is using the random r
 https://github.com/stepmat/rectilinear_polygon_generator
 
 
-.|.
+Input sketch | Generated structure
 :-------------------------:|:-------------------------:
-![](/Examples/1a.jpg) | ![](/Examples/1b.jpg)
+![](/Examples/1a.jpg) | ![](/Examples/1b.png)
 ![](/Examples/example_3.jpg) | ![](/Examples/example_4.jpg)
