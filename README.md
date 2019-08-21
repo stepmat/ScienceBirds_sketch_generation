@@ -6,9 +6,8 @@ To generate structure from sketch:
 
 python3 generate_sketch.py "sketch_name.png" "scale_calculation_option" "only_rectangular_polygons"
 
-scale_calculation_option:       0=Max  1=Min  2=MidRange  3=Mean  4=Median
-
-only_rectangular_polygons:      1=only rectangles within sketch  0=sketch contains non-rectangular polygons
+-   scale_calculation_option:       0=Max  1=Min  2=MidRange  3=Mean  4=Median
+-   only_rectangular_polygons:      1=only rectangles within sketch  0=sketch contains non-rectangular polygons
 
 e.g. 
 python3 generate_sketch.py sketch.png 3 0
