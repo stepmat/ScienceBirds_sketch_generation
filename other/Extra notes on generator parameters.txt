@@ -1,0 +1,28 @@
+
+- scale_calculation_option: 0=Max 1=Min 2=MidRange 3=Mean 4=Median
+
+This option determines which of the 5 scale options to use when determining how big structures should be.
+The calculations behind each of these scale options can be found in Section E of the paper here:
+http://matthewstephenson.info/papers/Generating%20Stable,%20Building%20Block%20Structures%20from%20Sketches(TOG).pdf 
+Using each of these options will often give you structures of different sizes for the same sketch, but on complex structures it is possible that only some (or maybe even just one) of these options will generate a valid structure within a reasonable amount of time. 
+The best approach is to try out each of these options one by one, either manually or using a program script.
+
+
+- corner_splitting: 0=only rectangles within sketch 1=sketch contains non-rectangular polygons
+
+The value should be 0 if the sketch contains only rectangles, and 1 if the sketch contains non-rectangular polygons.
+I will correct this on the github repository page.
+Setting this value to 1 instructs the generation algorithm to attempt to split non-rectangular polygons on their corner points.
+This approach requires the use of a corner detection algorithm, with is typically much less reliable than the standard MBR algorithm that is used if there are only rectangles in the sketch.
+Note also that the generation algorithm requires the sketches to be MUCH more accurate if they contain non-rectangular polygons, as any incorrectly detected corners of the sketch may confuse the algorithm.    
+To put it plainly, if your sketch contains non-rectangular polygons set this value to 1, otherwise set it to 0. 
+The example you are using contains only rectangles, so this value should be set to 0.
+
+
+Do not use the example sketches shown on the github repository page. 
+These should not be used for structure generation, as they are highly compressed and edited images that are just intended for display on the github repository page.
+My generator tends to not work as well on compressed images, and works much better on high quality photos or scans.
+Instead please use the sketches found in the "Example_sketches" folder.
+
+For example, if you copy the image called "3b.png" to the generator directory, you can generate a structure using the following command:
+"python generate_sketch.py 3b.png 2 0"
