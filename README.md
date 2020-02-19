@@ -4,10 +4,10 @@ https://github.com/lucasnfe/Science-Birds
 
 To generate structure from sketch:
 
-python3 generate_sketch.py "sketch_name.png" "scale_calculation_option" "only_rectangular_polygons"
+python3 generate_sketch.py "sketch_name.png" "scale_calculation_option" "corner_splitting"
 
 -   scale_calculation_option:       0=Max  1=Min  2=MidRange  3=Mean  4=Median
--   only_rectangular_polygons:      1=only rectangles within sketch  0=sketch contains non-rectangular polygons
+-   corner_splitting:      0=only rectangles within sketch  1=sketch contains non-rectangular polygons
 
 e.g. 
 python3 generate_sketch.py sketch.png 3 0
@@ -23,7 +23,7 @@ https://github.com/stepmat/rectilinear_polygon_generator
 
 Input sketch | Generated structure
 :-------------------------:|:-------------------------:
-![](/Examples/example1a.jpg) | ![](/Examples/example1b.png)
-![](/Examples/example2a.png) | ![](/Examples/example2b.png)
-![](/Examples/example3a.png) | ![](/Examples/example3b.png)
-![](/Examples/example4a.jpg) | ![](/Examples/example4b.png)
+![](/other/do_not_use_for_generation/example1a.jpg) | ![](/other/do_not_use_for_generation/example1b.png)
+![](/other/do_not_use_for_generation/example2a.png) | ![](/other/do_not_use_for_generation/example2b.png)
+![](/other/do_not_use_for_generation/example3a.png) | ![](/other/do_not_use_for_generation/example3b.png)
+![](/other/do_not_use_for_generation/example4a.jpg) | ![](/other/do_not_use_for_generation/example4b.png)
